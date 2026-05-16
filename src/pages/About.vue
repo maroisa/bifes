@@ -17,14 +17,7 @@
         <div class="card">
             <h2 class="font-bold text-sky-900">Tentang Maskot</h2>
             <p>
-                Bytesfest merupakan event tahunan yang diselenggarakan oleh
-                himpunan Mahasiswa Prodi Pendidikan Teknik Informatika dan
-                Komputer Universitas Sebelas Maret. Bytesfest tahun 2026 yang
-                mengusung tema gatau lupa. Diharapkan dengan diselenggarakan
-                acara ini dapat mengajak generasi muda mengembangkan potensi,
-                minat bakat dan ajang kreatifitas yang mampu membentuk karakter
-                yang berjiwa muda dan mampu mengembangkan potensi kreativitas
-                dan inovasi melalui apapun yang mereka punya.
+                Ini maskotnya gatau namanya siapa, belum kenalan
             </p>
             <img src="../assets/maskot.webp" width="400" class="m-auto" />
         </div>
