@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url("./assets/comic.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url("./assets/comicbd.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import "tailwindcss";
+
+@layer base {
+    html {
+        font-family: "Comic Sans MS";
+    }
+    #app {
+        @apply h-screen w-screen flex flex-col;
+    }
+}
+
+@layer components {
+    .card {
+        @apply bg-sky-200/80 shadow-lg/25 p-4 rounded-lg border-3 border-white/60;
+    }
+    .gay {
+        background: linear-gradient(
+            124deg,
+            #ff2400,
+            #e81d1d,
+            #e8b71d,
+            #e3e81d,
+            #1de840,
+            #1ddde8,
+            #2b1de8,
+            #dd00f3,
+            #dd00f3
+        );
+        background-size: 1800% 1800%;
+
+        -webkit-animation: rainbow 18s ease infinite;
+        -z-animation: rainbow 18s ease infinite;
+        -o-animation: rainbow 18s ease infinite;
+        animation: rainbow 18s ease infinite;
+    }
+
+    @-webkit-keyframes rainbow {
+        0% {
+            background-position: 0% 82%;
+        }
+        50% {
+            background-position: 100% 19%;
+        }
+        100% {
+            background-position: 0% 82%;
+        }
+    }
+    @-moz-keyframes rainbow {
+        0% {
+            background-position: 0% 82%;
+        }
+        50% {
+            background-position: 100% 19%;
+        }
+        100% {
+            background-position: 0% 82%;
+        }
+    }
+    @-o-keyframes rainbow {
+        0% {
+            background-position: 0% 82%;
+        }
+        50% {
+            background-position: 100% 19%;
+        }
+        100% {
+            background-position: 0% 82%;
+        }
+    }
+    @keyframes rainbow {
+        0% {
+            background-position: 0% 82%;
+        }
+        50% {
+            background-position: 100% 19%;
+        }
+        100% {
+            background-position: 0% 82%;
+        }
+    }
+}
